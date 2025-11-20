@@ -22,6 +22,7 @@ test('extracting values',async ({page}) => {
   const emailValue = await emailField.inputValue()
   expect (emailValue).toEqual('test@test.com')
 
+  //attributes
   const placeholderValue = await emailField.getAttribute('placeholder')
   expect(placeholderValue).toEqual('Email')
 })
