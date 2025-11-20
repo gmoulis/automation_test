@@ -26,4 +26,3 @@ test('locating parents elements', async({page}) => {
 
 //hasText option directement dans la création du localisateur
 //filter plus explicite
-//test

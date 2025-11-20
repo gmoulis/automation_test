@@ -17,4 +17,3 @@ test('locating child elements', async({page}) => {
   await page.locator('nb-card').nth(3).getByRole('button').click()
 })
 
-//test

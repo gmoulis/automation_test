@@ -52,4 +52,4 @@ test('navigate to datepicker page', async ({page}) => {
 
 //après tous les tests.
 //test.afterAll(async({page}) => {})
-//test
+

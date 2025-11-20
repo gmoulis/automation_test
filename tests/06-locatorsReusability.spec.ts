@@ -19,5 +19,3 @@ test('Reusing the locators', async ({page}) => {
 
   await expect(emailField).toHaveValue('test@test.com')
 })
-
-//test
